@@ -1,5 +1,7 @@
 #!/bin/bash
 
+LIBRA_SRC=sub/libra
+
 if [ -z "$LIBRA_SRC" ]; then
     echo "Please set \$LIBRA_SRC to the base directory of your libra repo."
     exit 1
