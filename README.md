@@ -19,3 +19,10 @@ git subtree add --prefix=sub/libra libra master --squash
 git subtree pull --prefix=sub/libra libra master --squash
 git subtree push --prefix=sub/libra libra master
 ```
+
+## NOTE
+
+```{shell}
+# show protobuf files
+cd sub/libra && find . -type f -iname "*.proto"
+```
